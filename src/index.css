@@ -1,0 +1,29 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.layout {
+    
+    display:grid;
+    height: 100vh;
+    grid-template-columns: 20% 1fr;
+    grid-template-rows: 10% 1fr 10%;
+    grid-template-areas: "header header" "nav main" "footer footer";
+  }
+  
+  .header {
+    grid-area: header;
+    
+  }
+  .footer {
+    grid-area: footer;
+    
+  }
+  .nav {
+    grid-area: nav;
+    
+  }
+  .main {
+    grid-area: main;
+    
+  }
