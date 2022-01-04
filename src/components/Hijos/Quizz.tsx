@@ -33,7 +33,7 @@ export function Quizz() {
     const modoHidden = false;
     return (
         <>
-            {JSON.stringify(state)}
+         
             <div>
                 <h1 className='text-2xl mb-2'>{params.name} quizz, {state.length} preguntas</h1>
                 {
