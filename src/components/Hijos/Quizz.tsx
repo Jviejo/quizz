@@ -17,7 +17,7 @@ export function Quizz() {
 
     const [state, setState] = React.useState<any>()
     useEffect(() => {
-        fetch('/assets/' + params.name + '.txt').then(response => response.text()).then(text => {
+        fetch('/' + params.name + '.txt').then(response => response.text()).then(text => {
             console.log(text.split("\r\n\r\n"))
             setState(generateState(text.split("\r\n\r\n").filter(i => i !== '')))
         })

@@ -18,6 +18,12 @@ export function Navbar() {
             <li>
                 <Link to="/quizz/css">CSS</Link>
             </li>
+            <li>
+                <Link to="/quizz/bs5">Bootstrap 5</Link>
+            </li>
+            <li>
+                <Link to="/quizz/java">Java</Link>
+            </li>
         </ul>
     </div>
 }
