@@ -6,7 +6,7 @@ import { Navbar } from "./Navbar";
 export function Layout() {
     return (
         <div className="layout">
-            <div className="header"><Header></Header></div>
+            <div className="header border-b mb-2"><Header></Header></div>
             <div className="nav"><Navbar></Navbar></div>
             <div className="main"><Outlet/></div>
             <div className="footer"><Footer></Footer></div>
